@@ -29,9 +29,11 @@ function App() {
             <div className=" first-con  rounded-[12px] flex justify-between items-center p-[16px] ">
               <div className="flex items-center gap-[12px]">
                 <img src={reaction} alt="" />
-                <span>Reaction</span>
+                <span className="text-[16px] text-[#F55] font-medium">
+                  Reaction
+                </span>
               </div>
-              <span className="text-[16px] text-[#303B59]">
+              <span className="text-[16px] text-[#303B59] font-bold">
                 80
                 <span className="text-[16px] text-[#303B59] opacity-50">
                   /100
@@ -41,7 +43,9 @@ function App() {
             <div className="second-con  p-[16px] flex justify-between item-center rounded-[12px]">
               <div className=" flex items-center gap-[12px] ">
                 <img src={memory} alt="" />
-                <span>Memory</span>
+                <span className="text-[16px] text-[#FFB21E] font-medium">
+                  Memory
+                </span>
               </div>
               <span className="text-[16px] font-bold text-[#303B59]">
                 92
@@ -52,8 +56,10 @@ function App() {
             </div>
             <div className=" third-con p-[16px] flex justify-between items-center rounded-[12px]">
               <div className=" flex items-center gap-[12px]">
-                <img src={memory} alt="" />
-                <span>Verbal</span>
+                <img src={verbal} alt="" />
+                <span className="text-[#00BB8F] text-[16px] font-medium">
+                  Verbal
+                </span>
               </div>
               <span className="text-[16px] text-[#303B59] font-bold">
                 61
@@ -62,7 +68,20 @@ function App() {
                 </span>
               </span>
             </div>
-            <div></div>
+            <div className="fourth-con flex justify-between p-[16px] items-center rounded-[12px]">
+              <div className="flex items-center gap-[12px] ">
+                <img src={visual} alt="" />
+                <span className="text-[16px] font-medium text-[#1125D6]">
+                  Visul
+                </span>
+              </div>
+              <span className="text-[16px] text-[#303B59] font-bold">
+                72
+                <span className="text-[16px] text-[#303B59] font-bold opacity-50">
+                  /100
+                </span>
+              </span>
+            </div>
           </div>
         </div>
       </div>
