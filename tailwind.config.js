@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      screens: {
+        desktop: "1440px",
+      },
       colors: {
         Hone: "#CAC9FF",
         "custom-purple-1": "rgba(119, 85, 255, 1)",

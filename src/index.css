@@ -55,3 +55,9 @@ body {
     #1125d6
   );
 }
+body {
+  background: var(--Very-Light-blue, #ecf2ff);
+  @media (min-width: 1440px) {
+    padding: 245px 363px 323px 341px;
+  }
+}
